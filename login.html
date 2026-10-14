@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | MyShop</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">MYSHOP</div>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="man.html">Man</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-right">
+            <span>🛒</span>
+            <a class="login-btn" href="login.html">Login</a>
+        </div>
+    </header>
+
+    <!-- LOGIN SECTION -->
+    <section class="login">
+        <div class="login-container">
+            <h2>Login</h2>
+            <p>Welcome back! Please login to your account</p>
+
+            <!-- FORM -->
+            <form id="loginForm">
+
+                <!-- FIXED FUNCTION CALL -->
+                <input type="email" id="email" onfocus="userEmail()" placeholder="Email Address" required>
+
+                <input type="password" id="password" onfocus="userPassword()" placeholder="Password" required>
+
+                <div class="login-options">
+                    <label>
+                        <input type="checkbox" id="remember"> Remember me
+                    </label>
+                    <a href="forgot pass.html">Forgot Password?</a>
+                </div>
+
+                <button type="submit">Login</button>
+            </form>
+
+            <p class="signup-text">
+                Don’t have an account? <a href="sign up.html">Sign Up</a>
+            </p>
+
+            <!-- MESSAGE -->
+            <p id="message"></p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>MYSHOP</h2>
+                <p>Premium fashion crafted for modern lifestyle.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <a href="man.html">Man</a>
+                <a href="women.html">Women</a>
+                <a href="kids.html">Kids</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Support</h4>
+                <a href="help center.html">Help Center</a>
+                <a href="returns.html">Returns</a>
+                <a href="shoppolicy.html">Privacy Policy</a>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <input type="email" id="email" placeholder="Enter email">
+                <button onclick="subscribe()">Subscribe</button>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MYSHOP. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="eccom.js"></script>
+
+
+</body>
+
+</html>

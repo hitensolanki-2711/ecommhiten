@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyShop</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+    
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">MYSHOP</div>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="man.html">Man</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-right">
+         <span id="Counter">🛒 0</span>
+            <a class="login-btn" onclick="window.location.href='login.html'">Login</a>
+        </div>
+    </header>
+
+    <!-- PRODUCTS -->
+    <section class="products">
+        <h2>Shop Collection</h2>
+
+        <div class="product-grid">
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=400" alt="T-Shirt" />
+                <h3>Casual T-Shirt</h3>
+                <p>₹699</p>
+                <button onclick="addToCart('Casual T-Shirt',699)">Add to Cart</button>
+
+
+            </div>
+
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf" alt="T-Shirt"/>
+                <h3>Denim Shirt</h3>
+                <p>₹1199</p>
+                <button onclick="addToCart('Denim Shirt')">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22"  alt="T-Shirt"/>
+                <h3>Hoodie</h3>
+                <p>₹1499</p>
+                <button onclick="addToCart('Hoodie')">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246"  alt="T-Shirt"/>
+                <h3>Jacket</h3>
+                <p>₹2499</p>
+                <button onclick="addToCart('Jacket')">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- BRAND -->
+            <div class="footer-brand">
+                <h2>MYSHOP</h2>
+                <p>Premium fashion crafted for modern lifestyle.
+                    Simple. Elegant. Timeless.</p>
+            </div>
+
+            <!-- LINKS -->
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <a href="man.html">Man</a>
+                <a href="women.html">Women</a>
+                <a href="kids.html">Kids</a>
+                <a href="#">Accessories</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Support</h4>
+                <a href="help center.html">Help Center</a>
+                <a href="retuns.html">Returns</a>
+                <a href="shoppolicy.html">Privacy Policy</a>
+            </div>
+
+            <!-- NEWSLETTER -->
+             <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <input type="email" id="email" placeholder="Enter email">
+                <button onclick="subscribe()">Subscribe</button>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MYSHOP. All rights reserved.</p>
+        </div>
+
+
+    </footer>
+
+
+</body>
+<script type="module" src="eccom.js"></script>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | MyShop</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">MYSHOP</div>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="man.html">Man</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-right">
+            <span id="cart-icon" class="clickable">🛒</span>
+
+            <a class="login-btn" onclick="window.location.href='login.html'">Login</a>
+        </div>
+    </header>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p class="contact-sub">We’d love to hear from you</p>
+
+        <div class="contact-container">
+
+            <!-- LEFT INFO -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Email: support@myshop.com</p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Location: India</p>
+
+                <div class="social">
+                    <span>📘</span>
+                    <span>📸</span>
+                    <span>🐦</span>
+                </div>
+            </div>
+
+            <!-- RIGHT FORM -->
+            <div class="contact-form">
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>MYSHOP</h2>
+                <p>Premium fashion crafted for modern lifestyle.
+                    Simple. Elegant. Timeless.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <a href="man.html">Man</a>
+                <a href="women.html">Women</a>
+                <a href="kids.html">Kids</a>
+                <a href="#">Accessories</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <a href="#">Abotu</a>
+                <a href="#">Careers</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Support</h4>
+                <a href="help center.html">Help Center</a>
+                <a href="returns.html">Returns</a>
+                <a href="shoppolicy.html">Privacy Policy</a>
+            </div>
+
+              <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <input type="email" id="email" placeholder="Enter email">
+                <button onclick="subscribe()">Subscribe</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MYSHOP. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILE -->
+    <script src="eccom.js"></script>
+
+</body>
+
+</html>

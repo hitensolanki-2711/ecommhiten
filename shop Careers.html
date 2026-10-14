@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | MyShop</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">MYSHOP</div>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="man.html">Man</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </nav>
+
+        <div class="nav-right">
+            <span id="cart-icon" class="clickable">🛒</span>
+            <a class="login-btn" onclick="window.location.href='login.html'">Login</a>
+        </div>
+    </header>
+
+    <!-- CAREERS SECTION -->
+    <section class="careers">
+        <h2>Careers at MYSHOP</h2>
+        <p class="career-sub">Join our team and grow with us 🚀</p>
+
+        <div class="career-container">
+
+            <!-- JOB 1 -->
+            <div class="job-card">
+                <h3>Frontend Developer</h3>
+                <p>Location: Remote</p>
+                <p>Experience: 1-3 Years</p>
+                <button onclick="applyJob('Frontend Developer')">Apply Now</button>
+            </div>
+
+            <!-- JOB 2 -->
+            <div class="job-card">
+                <h3>Backend Developer</h3>
+                <p>Location: Remote</p>
+                <p>Experience: 2-4 Years</p>
+                <button onclick="applyJob('Backend Developer')">Apply Now</button>
+            </div>
+
+            <!-- JOB 3 -->
+            <div class="job-card">
+                <h3>Marketing Executive</h3>
+                <p>Location: India</p>
+                <p>Experience: 0-2 Years</p>
+                <button onclick="applyJob('Marketing Executive')">Apply Now</button>
+            </div>
+
+        </div>
+
+        <h3 id="applyMessage"></h3>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>MYSHOP</h2>
+                <p>Premium fashion crafted for modern lifestyle.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <a href="about.html">About</a>
+                <a href="careers.html">Careers</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </div>
+          <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <input type="email" id="email" placeholder="Enter email">
+                <button onclick="subscribe()">Subscribe</button>
+            </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MYSHOP. All rights reserved.</p>
+        </div>
+    </footer>
+
+   
+
+</body>
+
+</html>

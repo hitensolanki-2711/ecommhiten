@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center | MyShop</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">MYSHOP</div>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="man.html">Man</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-right">
+            <span id="cart-icon">🛒</span>
+            <a class="login-btn" onclick="window.location.href='login.html'">Login</a>
+        </div>
+    </header>
+
+    <!-- HELP CENTER -->
+    <section class="help">
+        <h2>Help Center</h2>
+        <p class="help-sub">How can we assist you?</p>
+
+        <!-- SEARCH -->
+        <div class="help-search">
+            <input type="text" id="searchBox" placeholder="Search for help...">
+        </div>
+
+        <!-- FAQ -->
+        <div class="faq-container" id="faqContainer">
+
+            <div class="faq-item">
+                <h4>How do I place an order?</h4>
+                <p>You can browse products, add them to your cart, and proceed to checkout.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What payment methods are accepted?</h4>
+                <p>We accept credit/debit cards, UPI, and net banking.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>How can I track my order?</h4>
+                <p>Go to your account and check the "My Orders" section.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>What is your return policy?</h4>
+                <p>You can return products within 7 days of delivery.</p>
+            </div>
+
+        </div>
+
+        <!-- CONTACT -->
+        <div class="help-contact">
+            <h3>Still need help?</h3>
+            <p>Contact our support team anytime</p>
+            <a href="contact.html" class="help-btn">Contact Support</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- BRAND -->
+            <div class="footer-brand">
+                <h2>MYSHOP</h2>
+                <p>Premium fashion crafted for modern lifestyle.
+                    Simple. Elegant. Timeless.</p>
+            </div>
+
+            <!-- LINKS -->
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <a href="man.html">Man</a>
+                <a href="women.html">Women</a>
+                <a href="kids.html">Kids</a>
+                <a href="#">Accessories</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Support</h4>
+                <a href="help center.html">Help Center</a>
+                <a href="retuns.html">Returns</a>
+                <a href="shoppolicy.html">Privacy Policy</a>
+            </div>
+
+            <!-- NEWSLETTER -->
+             <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <input type="email" id="email" placeholder="Enter email">
+                <button onclick="subscribe()">Subscribe</button>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MYSHOP. All rights reserved.</p>
+        </div>
+
+
+    </footer>
+
+
+    <!-- JS FILE -->
+    <script src="eccom.js"></script>
+
+</body>
+
+</html>
